@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/adrmorver/egc20S02.svg?branch=master)](https://travis-ci.com/adrmorver/egc20S02)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/4b73c7fa429449aa8b3c068618dee489)](https://www.codacy.com/manual/adrmorver/egc20S02?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=adrmorver/egc20S02&amp;utm_campaign=Badge_Grade)
 
 Plataforma voto electrónico educativa
 =====================================
