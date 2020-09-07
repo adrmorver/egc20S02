@@ -10,14 +10,14 @@ RUN pip install ipython
 
 WORKDIR /app
 
-RUN git clone https://github.com/egc/decide.git .
+RUN git clone https://github.com/adrmorver/egc20S02.git .
 RUN pip install -r requirements.txt
 
 WORKDIR /app/decide
 
 # local settings.py
-ADD docker-settings.py /app/decide/local_settings.py
+ADD docker-settings2.py /app/decide/local_settings.py
 
-RUN ./manage.py collectstatic
+RUN python3 ./manage.py collectstatic
 
 #CMD ["gunicorn", "-w 5", "decide.wsgi", "--timeout=500", "-b 0.0.0.0:5000"]
