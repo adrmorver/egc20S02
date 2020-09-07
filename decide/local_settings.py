@@ -13,19 +13,19 @@ MODULES = [
     'voting',
 ]
 
-APIS = {
-    'authentication': 'http://localhost:8000',
-    'base': 'http://localhost:8000',
-    'booth': 'http://localhost:8000',
-    'census': 'http://localhost:8000',
-    'mixnet': 'http://localhost:8000',
-    'postproc': 'http://localhost:8000',
-    'store': 'http://localhost:8000',
-    'visualizer': 'http://localhost:8000',
-    'voting': 'http://localhost:8000',
-}
+BASEURL = 'http://localhost:8005'
 
-BASEURL = 'http://localhost:8000'
+APIS = {
+    'authentication': 'http://localhost:8005',
+    'base': 'http://localhost:8005',
+    'booth': 'http://localhost:8005',
+    'census': 'http://localhost:8005',
+    'mixnet': 'http://localhost:8005',
+    'postproc': 'http://localhost:8005',
+    'store': 'http://localhost:8005',
+    'visualizer': 'http://localhost:8005',
+    'voting': 'http://localhost:8005',
+}
 
 DATABASES = {
     'default': {
@@ -33,8 +33,8 @@ DATABASES = {
         'NAME': 'decide',
         'USER': 'decide',
         'PASSWORD': 'decide',
-        'HOST': 'localhost',
-        'PORT': '5432',
+        'HOST': '127.0.0.1',
+        'PORT': 5432,
     }
 }
 
