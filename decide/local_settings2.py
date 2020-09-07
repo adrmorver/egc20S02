@@ -12,7 +12,6 @@ MODULES = [
     'visualizer',
     'voting',
 ]
-BASEAURL = 'http://127.0.0.1:5001'
 
 APIS = {
     'authentication': BASEURL,

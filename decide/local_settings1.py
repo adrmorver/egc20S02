@@ -12,7 +12,7 @@ MODULES = [
     'visualizer',
     'voting',
 ]
-BASEURL = 'http://miapp.herokuapp.com'
+BASEURL = 'http://localhost'
 
 APIS = {
     'authentication': BASEURL,
